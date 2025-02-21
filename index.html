@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emploi du temps</title>
+    <style>
+      html {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      .emploi-header {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .middle-text {
+        color: #024790;
+        line-height: 0.6;
+        text-align: center;
+      }
+
+      h1 span {
+        color: red;
+        text-align: center;
+        border: 2px #024790 dashed;
+        border-top: none;
+      }
+
+      .cours-info {
+        color: rgb(9, 42, 27);
+      }
+
+      .emploi-info {
+        color: #12c302;
+        font-weight: 700;
+
+        tr,
+        td,
+        th {
+          padding: 0.1rem;
+        }
+      }
+
+      .emploi {
+        font-weight: 600;
+        text-align: center;
+        color: orange;
+
+        tr,
+        td,
+        th {
+          padding: 0.5rem;
+          margin: 0.5rem;
+        }
+
+        td {
+          background-color: rgb(197, 225, 168);
+        }
+
+        th {
+          background-color: rgb(201, 201, 201);
+        }
+      }
+
+      .white-bg {
+        background-color: white !important;
+      }
+
+      .empty-prof {
+        background-color: yellow !important;
+        height: 2rem;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="emploi-header">
+      <img
+        src="./ensa.png"
+        height="100px"
+        alt="ENSA Khouribga"
+        style="border-left: #024790 2px dashed"
+      />
+      <div class="middle-text">
+        <p>Université Sultan Moulay Slimane</p>
+        <p>Ecole Nationale des Sciences Appliquées de Khouribga</p>
+        <p>Année Universitaire 2024 - 2025</p>
+      </div>
+      <img
+        src="universite.JPG"
+        height="100px"
+        alt="Université Sultan Moulay Slimane"
+      />
+    </header>
+
+    <section>
+      <table class="emploi-info">
+        <tr>
+          <td>Filière</td>
+          <td>Génie Informatique</td>
+        </tr>
+        <tr>
+          <td>Année</td>
+          <td style="color: red; text-align: end">1</td>
+        </tr>
+      </table>
+
+      <h1 style="text-align: center">
+        <span
+          style="
+            display: inline-block;
+            padding-block: 0.5rem;
+            padding-inline: 8rem;
+          "
+          >EMPLOI DU TEMPS GI1 (Semestre 2)</span
+        >
+      </h1>
+
+      <table class="emploi" border="1" width="100%">
+        <thead>
+          <tr>
+            <th></th>
+            <th colspan="2" width="25%">8H15 à 10H00</th>
+            <th colspan="2" width="25%">10H15 à 112H00</th>
+            <th rowspan="6" width="2%"></th>
+            <th colspan="2" width="24%">14H00 à 15H45</th>
+            <th colspan="2" width="24%">16H00 à 17H45</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>Lundi</th>
+
+            <td>ADMINSTRATION</td>
+            <td class="cours-info">
+              <p>C2</p>
+              <p>Pr.Tissir</p>
+            </td>
+
+            <td>ADMINSTRATION</td>
+            <td class="cours-info">
+              <p>C2</p>
+              <p>Pr.Tissir</p>
+            </td>
+
+            <td rowspan="5" class="white-bg">
+              <p
+                style="
+                  text-align: start;
+                  transform: rotate(-90deg);
+                  margin-top: 40rem;
+                  color: #700000;
+                "
+              >
+                14H30
+              </p>
+            </td>
+
+            <td>ART DIGITAL</td>
+            <td class="cours-info">
+              <p>F24</p>
+              <p class="empty-prof"></p>
+            </td>
+
+            <td>ART DIGITAL</td>
+            <td class="cours-info">
+              <p>F24</p>
+              <p class="empty-prof"></p>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Mardi</th>
+
+            <td>ADMINSTRATION</td>
+            <td class="cours-info">
+              <p>C2</p>
+              <p>Pr.Tissir</p>
+            </td>
+
+            <td>ADMINSTRATION</td>
+            <td class="cours-info">
+              <p>C2</p>
+              <p>Pr.Tissir</p>
+            </td>
+
+            <td>ART DIGITAL</td>
+            <td class="cours-info">
+              <p>F24</p>
+              <p class="empty-prof"></p>
+            </td>
+
+            <td>ART DIGITAL</td>
+            <td class="cours-info">
+              <p>F24</p>
+              <p class="empty-prof"></p>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Mercredi</th>
+
+            <td>ADMINSTRATION</td>
+            <td class="cours-info">
+              <p>C2</p>
+              <p>Pr.Tissir</p>
+            </td>
+
+            <td>ADMINSTRATION</td>
+            <td class="cours-info">
+              <p>C2</p>
+              <p>Pr.Tissir</p>
+            </td>
+
+            <td>ART DIGITAL</td>
+            <td class="cours-info">
+              <p>F24</p>
+              <p class="empty-prof"></p>
+            </td>
+
+            <td>ART DIGITAL</td>
+            <td class="cours-info">
+              <p>F24</p>
+              <p class="empty-prof"></p>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Jeudi</th>
+
+            <td>ADMINSTRATION</td>
+            <td class="cours-info">
+              <p>C2</p>
+              <p>Pr.Tissir</p>
+            </td>
+
+            <td>ADMINSTRATION</td>
+            <td class="cours-info">
+              <p>C2</p>
+              <p>Pr.Tissir</p>
+            </td>
+
+            <td>ART DIGITAL</td>
+            <td class="cours-info">
+              <p>F24</p>
+              <p class="empty-prof"></p>
+            </td>
+
+            <td>ART DIGITAL</td>
+            <td class="cours-info">
+              <p>F24</p>
+              <p class="empty-prof"></p>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Vendredi</th>
+
+            <td>ADMINSTRATION</td>
+            <td class="cours-info">
+              <p>C2</p>
+              <p>Pr.Tissir</p>
+            </td>
+
+            <td>ADMINSTRATION</td>
+            <td class="cours-info">
+              <p>C2</p>
+              <p>Pr.Tissir</p>
+            </td>
+
+            <td>ART DIGITAL</td>
+            <td class="cours-info">
+              <p>F24</p>
+              <p class="empty-prof"></p>
+            </td>
+
+            <td>ART DIGITAL</td>
+            <td class="cours-info">
+              <p>F24</p>
+              <p class="empty-prof"></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>
