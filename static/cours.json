@@ -1,0 +1,112 @@
+{
+  "lundi": [
+    {
+      "titre": "ADMINISTRATION DE L'INFRASTRUCTURE INFORMATIQUE",
+      "classe": "C2",
+      "professeur": "Tissir",
+      "support": "admin_info"
+    },
+    {
+      "titre": "ADMINISTRATION DE L'INFRASTRUCTURE INFORMATIQUE",
+      "classe": "C2",
+      "support": "admin_info",
+      "professeur": "Tissir"
+    },
+    {
+      "titre": "Travaux Pratiques"
+    },
+    {
+      "titre": "Travaux Pratiques"
+    }
+  ],
+  "mardi": [
+    {
+      "titre": "THEORIE DES GRAPHES ET OPTIMISATION COMBINATOIRE",
+      "classe": "C2",
+      "support": "graphes",
+      "professeur": "Dargham"
+    },
+    {
+      "titre": "THEORIE DES GRAPHES ET OPTIMISATION COMBINATOIRE",
+      "classe": "C2",
+      "professeur": "Dargham",
+      "support": "graphes"
+    },
+    {
+      "titre": "ART DIGITAL",
+      "classe": "F11",
+      "professeur": "Ghazdali"
+    },
+    {
+      "titre": "ART DIGITAL",
+      "classe": "F11",
+      "professeur": "Ghazdali"
+    }
+  ],
+  "mercredi": [
+    {
+      "titre": "JAVA",
+      "classe": "C2",
+      "support": "java",
+      "professeur": "Baghdadi S."
+    },
+    {
+      "titre": "JAVA",
+      "classe": "C2",
+      "support": "java",
+      "professeur": "Baghdadi S."
+    },
+    {
+      "titre": "SYSTEMES D'EXPLOITATION & UNIX",
+      "classe": "C1",
+      "support": "unix",
+      "professeur": "Omari"
+    },
+    {
+      "titre": "SYSTEMES D'EXPLOITATION & UNIX",
+      "classe": "C1",
+      "support": "unix",
+      "professeur": "Omari"
+    }
+  ],
+  "jeudi": [
+    {
+      "titre": "Travaux Pratiques"
+    },
+    {
+      "titre": "Travaux Pratiques"
+    },
+    {
+      "titre": "ANGLAIS",
+      "classe": "C2",
+      "support": "anglais",
+      "professeur": "Boukhlet"
+    },
+    {
+      "titre": "Travaux Pratiques"
+    }
+  ],
+  "vendredi": [
+    {
+      "titre": "PROGRAMMATION WEB",
+      "classe": "C2",
+      "support": "web",
+      "professeur": "Omari"
+    },
+    {
+      "titre": "PROGRAMMATION WEB",
+      "classe": "C2",
+      "support": "web",
+      "professeur": "Omari"
+    },
+    {
+      "titre": "FRANCAIS",
+      "classe": "F24",
+      "support": "francais",
+      "professeur": "Hamza"
+    },
+    {
+      "titre": "Travaux Pratiques"
+    }
+  ]
+}
