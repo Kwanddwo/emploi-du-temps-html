@@ -1,103 +1,113 @@
-html {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+@layer reset {
 }
 
-p {
-  margin-block: 0.5rem;
-}
+@layer base {
+  html {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
 
-a:not(.download) {
-  color: inherit;
-  text-decoration: inherit;
-}
+  p {
+    margin-block: 0.5rem;
+  }
 
-.emploi-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.middle-text {
-  color: #024790;
-  line-height: 0.6;
-  text-align: center;
-}
-
-h1 span {
-  color: red;
-  text-align: center;
-  border: 2px #024790 dashed;
-  border-top: none;
-}
-
-.cours-info {
-  color: rgb(9, 42, 27);
-}
-
-.emploi-info {
-  color: #12c302;
-  font-weight: 700;
-
-  tr,
-  td,
-  th {
-    padding: 0.1rem;
+  a:not(.download) {
+    color: inherit;
+    text-decoration: inherit;
   }
 }
 
-.emploi {
-  font-weight: 600;
-  text-align: center;
-  color: orange;
-
-  tr,
-  td,
-  th {
-    padding: 0.5rem 0.5rem;
-    margin: 0 0.5rem;
-  }
-
-  td {
-    background-color: rgb(197, 225, 168);
-  }
-
-  th {
-    background-color: rgb(201, 201, 201);
+@layer layouts {
+  .flex-column {
+    display: flex;
+    flex-direction: column;
   }
 }
 
-.white-bg {
-  background-color: white !important;
+@layer components {
+  .card {
+    margin: 1rem;
+    padding: 1rem;
+    width: 50%;
+  }
+
+  .emploi-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .middle-text {
+    color: #024790;
+    line-height: 0.6;
+    text-align: center;
+  }
+
+  h1 span {
+    color: red;
+    text-align: center;
+    border: 2px #024790 dashed;
+    border-top: none;
+  }
+
+  .cours-info {
+    color: rgb(9, 42, 27);
+  }
+
+  .emploi-info {
+    color: #12c302;
+    font-weight: 700;
+
+    tr,
+    td,
+    th {
+      padding: 0.1rem;
+    }
+  }
+  .emploi {
+    font-weight: 600;
+    text-align: center;
+    color: orange;
+
+    tr,
+    td,
+    th {
+      padding: 0.5rem 0.5rem;
+      margin: 0 0.5rem;
+    }
+
+    td {
+      background-color: rgb(197, 225, 168);
+    }
+
+    th {
+      background-color: rgb(201, 201, 201);
+    }
+  }
+
+  .empty-prof {
+    background-color: yellow !important;
+    height: 2rem;
+    width: 100%;
+  }
+
+  .tp {
+    color: red;
+    background-color: white !important;
+
+    & + .cours-info {
+      background-color: white !important;
+    }
+  }
+
+  .vendredi-temps {
+    text-align: start;
+    transform: rotate(-90deg);
+    margin-top: 28rem;
+    color: #700000;
+  }
 }
 
-.empty-prof {
-  background-color: yellow !important;
-  height: 2rem;
-  width: 100%;
-}
-
-.tp {
-  color: red;
-  background-color: white !important;
-
-  & + .cours-info {
+@layer utility {
+  .white-bg {
     background-color: white !important;
   }
-}
-
-.vendredi-temps {
-  text-align: start;
-  transform: rotate(-90deg);
-  margin-top: 28rem;
-  color: #700000;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1rem;
-  width: 50%;
 }
